@@ -1,0 +1,63 @@
+{
+    "what": "ForgeEdge Ledger - calls exactly as locked, before any result",
+    "published_utc": "2026-09-26T18:38:14+00:00",
+    "count": 4,
+    "sha256_of_calls": "0d240b86b480be6de6c12da5de10e691cabfe622ec24dd96c0e2d83aae255762",
+    "how_to_check": "sha256 of the \"calls\" array serialised as compact JSON (no escaped slashes or unicode) equals sha256_of_calls; compare any call with forgeedge.co.uk/index.html#ledger",
+    "note": "FIRST PUBLICATION: these calls were locked before this repository existed; GitHub's time on this file is when they were published here, not when they were locked. Every call published after this one is published within minutes of its board.",
+    "calls": [
+        {
+            "basis": 59.87,
+            "corrected_at": "2026-07-13T18:11:49-06:00",
+            "corrections": [
+                {
+                    "at": "2026-07-13T18:11:49-06:00",
+                    "was": "hit",
+                    "now": "miss",
+                    "reason": "scorer v1 unit bug (dollars vs IG points) — re-scored by unit-safe v2"
+                }
+            ],
+            "created_at": "2026-07-12T08:54:51-06:00",
+            "epic": "CS.D.USCSI.TODAY.IP",
+            "horizon": "2026-07-13",
+            "id": "L0003",
+            "kind": "direction",
+            "note": "Midnight Call 13 Jul: O 59.87 · L 58.11 · H 61.50",
+            "side": "up",
+            "symbol": "XAG"
+        },
+        {
+            "basis": 4120.42,
+            "created_at": "2026-07-12T09:13:19-06:00",
+            "epic": "CS.D.USCGC.TODAY.IP",
+            "horizon": "2026-07-13",
+            "id": "L0004",
+            "kind": "direction",
+            "note": "Midnight Call 13 Jul: O 4120.42 · L 4070.14  · H 4169.02",
+            "side": "up",
+            "symbol": "XAU"
+        },
+        {
+            "basis": 58.83,
+            "created_at": "2026-07-12T16:51:53-06:00",
+            "epic": "CS.D.USCSI.TODAY.IP",
+            "horizon": "2026-07-14",
+            "id": "L0005",
+            "kind": "direction",
+            "note": "Midnight Call 14 Jul: O 59.95 · L 57.99 · H 61.40",
+            "side": "up",
+            "symbol": "XAG"
+        },
+        {
+            "basis": 4078.17,
+            "created_at": "2026-07-12T16:57:43-06:00",
+            "epic": "CS.D.USCGC.TODAY.IP",
+            "horizon": "2026-07-14",
+            "id": "L0006",
+            "kind": "direction",
+            "note": "Midnight Call 14 Jul: O 4118.74 · L 4068.19 · H 4167..94",
+            "side": "up",
+            "symbol": "XAU"
+        }
+    ]
+}
