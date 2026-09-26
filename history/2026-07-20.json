@@ -1,0 +1,3378 @@
+{
+    "what": "ForgeEdge Ledger - calls exactly as locked, before any result",
+    "published_utc": "2026-09-26T18:38:19+00:00",
+    "count": 104,
+    "sha256_of_calls": "98998b7486bdbaabf1b43494925b538d2d63ca2b89ee7e593e819e0c404c45a0",
+    "how_to_check": "sha256 of the \"calls\" array serialised as compact JSON (no escaped slashes or unicode) equals sha256_of_calls; compare any call with forgeedge.co.uk/index.html#ledger",
+    "note": "FIRST PUBLICATION: these calls were locked before this repository existed; GitHub's time on this file is when they were published here, not when they were locked. Every call published after this one is published within minutes of its board.",
+    "calls": [
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 8% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 8% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 5678.5,
+            "brier_basis": "probabilistic (p=0.548 backfilled from locked note, outcome 0)",
+            "brier_p": 0.300304,
+            "created_at": "2026-07-20T12:42:34-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0010",
+            "kind": "direction",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · LEAN UP · conf 8%",
+            "prob": 0.548,
+            "prob_conf": 8,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "side": "up",
+            "src": "store",
+            "symbol": "COC"
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 8% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 8% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 14204.2,
+            "brier_basis": "not scored — the underlying series is not trustworthy",
+            "corrected_at": "2026-07-26T19:02:05-06:00",
+            "corrections": [
+                {
+                    "at": "2026-07-26T19:02:05-06:00",
+                    "was": "hit",
+                    "now": "unscorable",
+                    "reason": "scorer v1 unit bug (dollars vs IG points) — re-scored by unit-safe v2"
+                }
+            ],
+            "created_at": "2026-07-20T12:42:34-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0011",
+            "kind": "direction",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · LEAN DOWN · conf 8%",
+            "prob": 0.548,
+            "prob_conf": 8,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "side": "down",
+            "src": "store",
+            "symbol": "OJ",
+            "unscorable": "series scale break: 111.4x on 2025-07-07 — two rulers in one series (R77). Repair the candle store, then rescore."
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 6% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 6% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 8775,
+            "brier_basis": "probabilistic (p=0.536 backfilled from locked note, outcome 0)",
+            "brier_p": 0.287296,
+            "created_at": "2026-07-20T12:42:34-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0012",
+            "kind": "direction",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · LEAN DOWN · conf 6%",
+            "prob": 0.536,
+            "prob_conf": 6,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "side": "down",
+            "src": "store",
+            "symbol": "BRN"
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 81.878,
+            "brier_basis": "probabilistic (p=0.53 backfilled from locked note, outcome 1)",
+            "brier_p": 0.2209,
+            "created_at": "2026-07-20T12:42:34-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0013",
+            "kind": "direction",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · LEAN DOWN · conf 5%",
+            "prob": 0.53,
+            "prob_conf": 5,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "side": "down",
+            "src": "store",
+            "symbol": "WTI"
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 690.5,
+            "brier_basis": "probabilistic (p=0.53 backfilled from locked note, outcome 1)",
+            "brier_p": 0.2209,
+            "created_at": "2026-07-20T12:42:34-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0014",
+            "kind": "direction",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · LEAN DOWN · conf 5%",
+            "prob": 0.53,
+            "prob_conf": 5,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "side": "down",
+            "src": "store",
+            "symbol": "WHT"
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 333.73999,
+            "brier_basis": "probabilistic (p=0.53 backfilled from locked note, outcome 1)",
+            "brier_p": 0.2209,
+            "created_at": "2026-07-20T12:42:34-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0015",
+            "kind": "direction",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · LEAN DOWN · conf 5%",
+            "prob": 0.53,
+            "prob_conf": 5,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "side": "down",
+            "src": "store",
+            "symbol": "AAPL"
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 0.85021,
+            "brier_basis": "probabilistic (p=0.53 backfilled from locked note, outcome 0)",
+            "brier_p": 0.2809,
+            "created_at": "2026-07-20T12:42:34-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0016",
+            "kind": "direction",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · LEAN UP · conf 5%",
+            "prob": 0.53,
+            "prob_conf": 5,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "side": "up",
+            "src": "store",
+            "symbol": "EURGBP"
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 6.136114,
+            "brier_basis": "probabilistic (p=0.518 backfilled from locked note, outcome 1)",
+            "brier_p": 0.232324,
+            "created_at": "2026-07-20T12:42:34-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0017",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 3%",
+            "prob": 0.518,
+            "prob_conf": 3,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "HG",
+            "target_hi": 6.2176,
+            "target_lo": 6.0527
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 28589.4,
+            "brier_basis": "probabilistic (p=0.518 backfilled from locked note, outcome 1)",
+            "brier_p": 0.232324,
+            "created_at": "2026-07-20T12:42:34-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0018",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 3%",
+            "prob": 0.518,
+            "prob_conf": 3,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "NDX",
+            "target_hi": 29050.5597,
+            "target_lo": 28139.9794
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 50.779999,
+            "brier_basis": "probabilistic (p=0.518 backfilled from locked note, outcome 1)",
+            "brier_p": 0.232324,
+            "created_at": "2026-07-20T12:42:34-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0019",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 3%",
+            "prob": 0.518,
+            "prob_conf": 3,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "SLV",
+            "target_hi": 52.0136,
+            "target_lo": 49.3812
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 25.049999,
+            "brier_basis": "probabilistic (p=0.518 backfilled from locked note, outcome 1)",
+            "brier_p": 0.232324,
+            "created_at": "2026-07-20T12:42:34-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0020",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 3%",
+            "prob": 0.518,
+            "prob_conf": 3,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "PFE",
+            "target_hi": 25.4912,
+            "target_lo": 24.5593
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 218.481003,
+            "brier_basis": "probabilistic (p=0.518 backfilled from locked note, outcome 1)",
+            "brier_p": 0.232324,
+            "created_at": "2026-07-20T12:42:34-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0021",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 3%",
+            "prob": 0.518,
+            "prob_conf": 3,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "GBPJPY",
+            "target_hi": 219.47,
+            "target_lo": 217.6075
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 22.48,
+            "brier_basis": "probabilistic (p=0.512 backfilled from locked note, outcome 1)",
+            "brier_p": 0.238144,
+            "created_at": "2026-07-20T12:42:34-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0022",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "VXX",
+            "target_hi": 23.1538,
+            "target_lo": 21.7902
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 168.899994,
+            "brier_basis": "probabilistic (p=0.518 backfilled from locked note, outcome 0.5)",
+            "brier_p": 0.000324,
+            "created_at": "2026-07-20T12:42:34-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0023",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 3%",
+            "prob": 0.518,
+            "prob_conf": 3,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "AZN",
+            "target_hi": 172.6843,
+            "target_lo": 165.2014
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 31415.7,
+            "brier_basis": "probabilistic (p=0.512 backfilled from locked note, outcome 1)",
+            "brier_p": 0.238144,
+            "created_at": "2026-07-20T12:42:34-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0024",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "COF",
+            "target_hi": 33661.0234,
+            "target_lo": 29264.8938
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 64892.8,
+            "brier_basis": "probabilistic (p=0.512 backfilled from locked note, outcome 1)",
+            "brier_p": 0.238144,
+            "created_at": "2026-07-20T12:42:34-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0025",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "NIK",
+            "target_hi": 66517.7974,
+            "target_lo": 63201.7187
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 0.584488,
+            "brier_basis": "probabilistic (p=0.512 backfilled from locked note, outcome 1)",
+            "brier_p": 0.238144,
+            "created_at": "2026-07-20T12:42:34-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0026",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "NZDUSD",
+            "target_hi": 0.5881,
+            "target_lo": 0.581
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 393.820007,
+            "brier_basis": "probabilistic (p=0.512 backfilled from locked note, outcome 1)",
+            "brier_p": 0.238144,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0027",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "MSFT",
+            "target_hi": 404.2379,
+            "target_lo": 383.9825
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 1250,
+            "brier_basis": "probabilistic (p=0.512 backfilled from locked note, outcome 1)",
+            "brier_p": 0.238144,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0028",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "XPD",
+            "target_hi": 1297.0462,
+            "target_lo": 1207.0001
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 17035,
+            "brier_basis": "probabilistic (p=0.512 backfilled from locked note, outcome 1)",
+            "brier_p": 0.238144,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0029",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "NI",
+            "target_hi": 17288.7347,
+            "target_lo": 16766.2523
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 39987,
+            "brier_basis": "not scored — the underlying series is not trustworthy",
+            "corrected_at": "2026-07-26T19:02:05-06:00",
+            "corrections": [
+                {
+                    "at": "2026-07-26T19:02:05-06:00",
+                    "was": "hit",
+                    "now": "unscorable",
+                    "reason": "scorer v1 unit bug (dollars vs IG points) — re-scored by unit-safe v2"
+                }
+            ],
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0030",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "HOIL",
+            "target_hi": 41270.5393,
+            "target_lo": 39448.8755,
+            "unscorable": "series scale break: 9791.6x on 2024-07-26 — two rulers in one series (R77). Repair the candle store, then rescore."
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 7884.2,
+            "brier_basis": "not scored — the underlying series is not trustworthy",
+            "corrected_at": "2026-07-26T19:02:05-06:00",
+            "corrections": [
+                {
+                    "at": "2026-07-26T19:02:05-06:00",
+                    "was": "hit",
+                    "now": "unscorable",
+                    "reason": "scorer v1 unit bug (dollars vs IG points) — re-scored by unit-safe v2"
+                }
+            ],
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0031",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "CTN",
+            "target_hi": 8076.8259,
+            "target_lo": 7823.654,
+            "unscorable": "series scale break: 104.4x on 2025-07-04 — two rulers in one series (R77). Repair the candle store, then rescore."
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 24816.5,
+            "brier_basis": "probabilistic (p=0.512 backfilled from locked note, outcome 1)",
+            "brier_p": 0.238144,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0032",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "DAX",
+            "target_hi": 25106.8791,
+            "target_lo": 24538.4931
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 380.839996,
+            "brier_basis": "probabilistic (p=0.512 backfilled from locked note, outcome 1)",
+            "brier_p": 0.238144,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0033",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "TSLA",
+            "target_hi": 398.0008,
+            "target_lo": 363.8887
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 346.769989,
+            "brier_basis": "probabilistic (p=0.512 backfilled from locked note, outcome 1)",
+            "brier_p": 0.238144,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0034",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "GOOGL",
+            "target_hi": 356.4212,
+            "target_lo": 336.9903
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 253.039993,
+            "brier_basis": "probabilistic (p=0.512 backfilled from locked note, outcome 1)",
+            "brier_p": 0.238144,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0035",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "JNJ",
+            "target_hi": 259.1591,
+            "target_lo": 247.4789
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 5592.7,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 0.5)",
+            "brier_p": 3.6e-5,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": "CS.D.USCSI.TODAY.IP",
+            "horizon": "2026-07-21",
+            "id": "L0036",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "ig-live",
+            "src": "ig",
+            "symbol": "XAG",
+            "target_hi": 5825.46,
+            "target_lo": 5378.74
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 4018.19,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": "CS.D.USCGC.TODAY.IP",
+            "horizon": "2026-07-21",
+            "id": "L0037",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "ig-live",
+            "src": "ig",
+            "symbol": "XAU",
+            "target_hi": 4100.1955,
+            "target_lo": 3942.756
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 32674,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0038",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "GAS",
+            "target_hi": 33752.0137,
+            "target_lo": 31714.6082
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 695.330017,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0039",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "QQQ",
+            "target_hi": 706.9232,
+            "target_lo": 683.4275
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 426.089996,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0040",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "UNH",
+            "target_hi": 438.1049,
+            "target_lo": 414.7192
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 50.32,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0041",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "NVO",
+            "target_hi": 51.4817,
+            "target_lo": 49.3513
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 3168,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0042",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "AL",
+            "target_hi": 3220.2815,
+            "target_lo": 3109.9348
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 2.8925,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0043",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "NG",
+            "target_hi": 2.9871,
+            "target_lo": 2.7891
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 185.761993,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0044",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "EURJPY",
+            "target_hi": 186.385,
+            "target_lo": 185.1406
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 0.69847,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0045",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "AUDUSD",
+            "target_hi": 0.7019,
+            "target_lo": 0.695
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 247.229996,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T12:42:35-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0046",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "AMZN",
+            "target_hi": 254.564,
+            "target_lo": 240.3363
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 1595.4,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T12:42:36-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0047",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "XPT",
+            "target_hi": 1650.8009,
+            "target_lo": 1543.7424
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 6.2705,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T12:42:36-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0048",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "HGC",
+            "target_hi": 6.3922,
+            "target_lo": 6.159
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 202.809998,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T12:42:36-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0049",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "NVDA",
+            "target_hi": 209.6544,
+            "target_lo": 196.0083
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 368.410004,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T12:42:36-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0050",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "GLD",
+            "target_hi": 373.3248,
+            "target_lo": 363.2316
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 1179.109985,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T12:42:36-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0051",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "LLY",
+            "target_hi": 1214.2981,
+            "target_lo": 1145.5314
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 1501.8,
+            "brier_basis": "probabilistic (p=0.5 backfilled from locked note, outcome 1)",
+            "brier_p": 0.25,
+            "created_at": "2026-07-20T12:42:36-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0052",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 0%",
+            "prob": 0.5,
+            "prob_conf": 0,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "SUG",
+            "target_hi": 1538.4167,
+            "target_lo": 1467.2736
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 1205,
+            "brier_basis": "probabilistic (p=0.5 backfilled from locked note, outcome 1)",
+            "brier_p": 0.25,
+            "created_at": "2026-07-20T12:42:36-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0053",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 0%",
+            "prob": 0.5,
+            "prob_conf": 0,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "SOY",
+            "target_hi": 1222.9175,
+            "target_lo": 1188.6528
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 10574.2,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T12:42:36-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0054",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "FTSE",
+            "target_hi": 10683.4225,
+            "target_lo": 10467.3505
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 1.4018,
+            "brier_basis": "probabilistic (p=0.5 backfilled from locked note, outcome 0.5)",
+            "brier_p": 0,
+            "created_at": "2026-07-20T12:42:36-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0055",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 0%",
+            "prob": 0.5,
+            "prob_conf": 0,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "USDCAD",
+            "target_hi": 1.4064,
+            "target_lo": 1.3967
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 743.289978,
+            "brier_basis": "probabilistic (p=0.5 backfilled from locked note, outcome 1)",
+            "brier_p": 0.25,
+            "created_at": "2026-07-20T12:42:36-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0056",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 0%",
+            "prob": 0.5,
+            "prob_conf": 0,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "SPY",
+            "target_hi": 749.9893,
+            "target_lo": 736.7562
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 294.040009,
+            "brier_basis": "probabilistic (p=0.5 backfilled from locked note, outcome 1)",
+            "brier_p": 0.25,
+            "created_at": "2026-07-20T12:42:36-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0057",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 0%",
+            "prob": 0.5,
+            "prob_conf": 0,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "IWM",
+            "target_hi": 297.9911,
+            "target_lo": 290.2614
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 64142.5,
+            "brier_basis": "probabilistic (p=0.5 backfilled from locked note, outcome 1)",
+            "brier_p": 0.25,
+            "created_at": "2026-07-20T12:42:36-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0058",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 0%",
+            "prob": 0.5,
+            "prob_conf": 0,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "BTC",
+            "target_hi": 65963.7474,
+            "target_lo": 62465.5655
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 453,
+            "brier_basis": "probabilistic (p=0.5 backfilled from locked note, outcome 1)",
+            "brier_p": 0.25,
+            "created_at": "2026-07-20T12:42:36-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0059",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 0%",
+            "prob": 0.5,
+            "prob_conf": 0,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "CRN",
+            "target_hi": 462.3061,
+            "target_lo": 444.6352
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 7455.35,
+            "brier_basis": "probabilistic (p=0.5 backfilled from locked note, outcome 1)",
+            "brier_p": 0.25,
+            "created_at": "2026-07-20T12:42:36-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0060",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 0%",
+            "prob": 0.5,
+            "prob_conf": 0,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "SPX",
+            "target_hi": 7520.7549,
+            "target_lo": 7395.6764
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 52149.4,
+            "brier_basis": "probabilistic (p=0.5 backfilled from locked note, outcome 1)",
+            "brier_p": 0.25,
+            "created_at": "2026-07-20T12:42:36-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0061",
+            "kind": "price_target",
+            "note": "AUTO · ASIA-UK · official verdict 2026-07-19 · NEUTRAL — no edge · conf 0%",
+            "prob": 0.5,
+            "prob_conf": 0,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "DOW",
+            "target_hi": 52585.3361,
+            "target_lo": 51723.6274
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 22% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 22% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 5678.5,
+            "brier_basis": "probabilistic (p=0.632 backfilled from locked note, outcome 0)",
+            "brier_p": 0.399424,
+            "created_at": "2026-07-20T13:08:11-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0062",
+            "kind": "direction",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · LEAN UP · conf 22%",
+            "prob": 0.632,
+            "prob_conf": 22,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "side": "up",
+            "src": "store",
+            "symbol": "COC"
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 22% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 22% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 14204.2,
+            "brier_basis": "not scored — the underlying series is not trustworthy",
+            "corrected_at": "2026-07-26T19:02:05-06:00",
+            "corrections": [
+                {
+                    "at": "2026-07-26T19:02:05-06:00",
+                    "was": "hit",
+                    "now": "unscorable",
+                    "reason": "scorer v1 unit bug (dollars vs IG points) — re-scored by unit-safe v2"
+                }
+            ],
+            "created_at": "2026-07-20T13:08:11-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0063",
+            "kind": "direction",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · LEAN DOWN · conf 22%",
+            "prob": 0.632,
+            "prob_conf": 22,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "side": "down",
+            "src": "store",
+            "symbol": "OJ",
+            "unscorable": "series scale break: 111.4x on 2025-07-07 — two rulers in one series (R77). Repair the candle store, then rescore."
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 18% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 18% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 8775,
+            "brier_basis": "probabilistic (p=0.608 backfilled from locked note, outcome 0)",
+            "brier_p": 0.369664,
+            "created_at": "2026-07-20T13:08:11-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0064",
+            "kind": "direction",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · LEAN DOWN · conf 18%",
+            "prob": 0.608,
+            "prob_conf": 18,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "side": "down",
+            "src": "store",
+            "symbol": "BRN"
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 15% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 15% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 81.878,
+            "brier_basis": "probabilistic (p=0.59 backfilled from locked note, outcome 1)",
+            "brier_p": 0.1681,
+            "created_at": "2026-07-20T13:08:11-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0065",
+            "kind": "direction",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · LEAN DOWN · conf 15%",
+            "prob": 0.59,
+            "prob_conf": 15,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "side": "down",
+            "src": "store",
+            "symbol": "WTI"
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 15% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 15% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 690.5,
+            "brier_basis": "probabilistic (p=0.59 backfilled from locked note, outcome 1)",
+            "brier_p": 0.1681,
+            "created_at": "2026-07-20T13:08:11-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0066",
+            "kind": "direction",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · LEAN DOWN · conf 15%",
+            "prob": 0.59,
+            "prob_conf": 15,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "side": "down",
+            "src": "store",
+            "symbol": "WHT"
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 15% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 15% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 333.73999,
+            "brier_basis": "probabilistic (p=0.59 backfilled from locked note, outcome 1)",
+            "brier_p": 0.1681,
+            "created_at": "2026-07-20T13:08:11-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0067",
+            "kind": "direction",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · LEAN DOWN · conf 15%",
+            "prob": 0.59,
+            "prob_conf": 15,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "side": "down",
+            "src": "store",
+            "symbol": "AAPL"
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 13% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 13% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 0.85021,
+            "brier_basis": "probabilistic (p=0.578 backfilled from locked note, outcome 0)",
+            "brier_p": 0.334084,
+            "created_at": "2026-07-20T13:08:11-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0068",
+            "kind": "direction",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · LEAN UP · conf 13%",
+            "prob": 0.578,
+            "prob_conf": 13,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "side": "up",
+            "src": "store",
+            "symbol": "EURGBP"
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 9% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 9% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 6.136114,
+            "brier_basis": "probabilistic (p=0.554 backfilled from locked note, outcome 1)",
+            "brier_p": 0.198916,
+            "created_at": "2026-07-20T13:08:11-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0069",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 9%",
+            "prob": 0.554,
+            "prob_conf": 9,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "HG",
+            "target_hi": 6.2144,
+            "target_lo": 6.0558
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 9% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 9% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 28589.4,
+            "brier_basis": "probabilistic (p=0.554 backfilled from locked note, outcome 1)",
+            "brier_p": 0.198916,
+            "created_at": "2026-07-20T13:08:11-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0070",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 9%",
+            "prob": 0.554,
+            "prob_conf": 9,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "NDX",
+            "target_hi": 29032.9734,
+            "target_lo": 28157.5657
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 9% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 9% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 50.779999,
+            "brier_basis": "probabilistic (p=0.554 backfilled from locked note, outcome 1)",
+            "brier_p": 0.198916,
+            "created_at": "2026-07-20T13:08:11-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0071",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 9%",
+            "prob": 0.554,
+            "prob_conf": 9,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "SLV",
+            "target_hi": 51.9628,
+            "target_lo": 49.432
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 9% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 9% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 25.049999,
+            "brier_basis": "probabilistic (p=0.554 backfilled from locked note, outcome 1)",
+            "brier_p": 0.198916,
+            "created_at": "2026-07-20T13:08:11-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0072",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 9%",
+            "prob": 0.554,
+            "prob_conf": 9,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "PFE",
+            "target_hi": 25.4732,
+            "target_lo": 24.5773
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 8% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 8% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 218.481003,
+            "brier_basis": "probabilistic (p=0.548 backfilled from locked note, outcome 1)",
+            "brier_p": 0.204304,
+            "created_at": "2026-07-20T13:08:11-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0073",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 8%",
+            "prob": 0.548,
+            "prob_conf": 8,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "GBPJPY",
+            "target_hi": 219.4401,
+            "target_lo": 217.6375
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 7% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 7% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 22.48,
+            "brier_basis": "probabilistic (p=0.542 backfilled from locked note, outcome 1)",
+            "brier_p": 0.209764,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0074",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 7%",
+            "prob": 0.542,
+            "prob_conf": 7,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "VXX",
+            "target_hi": 23.132,
+            "target_lo": 21.8121
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 7% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 7% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 168.899994,
+            "brier_basis": "probabilistic (p=0.542 backfilled from locked note, outcome 0.5)",
+            "brier_p": 0.001764,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0075",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 7%",
+            "prob": 0.542,
+            "prob_conf": 7,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "AZN",
+            "target_hi": 172.588,
+            "target_lo": 165.2977
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 6% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 6% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 31415.7,
+            "brier_basis": "probabilistic (p=0.536 backfilled from locked note, outcome 1)",
+            "brier_p": 0.215296,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0076",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 6%",
+            "prob": 0.536,
+            "prob_conf": 6,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "COF",
+            "target_hi": 33604.783,
+            "target_lo": 29321.1342
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 6% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 6% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 64892.8,
+            "brier_basis": "probabilistic (p=0.536 backfilled from locked note, outcome 1)",
+            "brier_p": 0.215296,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0077",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 6%",
+            "prob": 0.536,
+            "prob_conf": 6,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "NIK",
+            "target_hi": 66475.3743,
+            "target_lo": 63244.1419
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 6% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 6% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 0.584488,
+            "brier_basis": "probabilistic (p=0.536 backfilled from locked note, outcome 1)",
+            "brier_p": 0.215296,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0078",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 6%",
+            "prob": 0.536,
+            "prob_conf": 6,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "NZDUSD",
+            "target_hi": 0.5881,
+            "target_lo": 0.5811
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 6% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 6% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 393.820007,
+            "brier_basis": "probabilistic (p=0.536 backfilled from locked note, outcome 1)",
+            "brier_p": 0.215296,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0079",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 6%",
+            "prob": 0.536,
+            "prob_conf": 6,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "MSFT",
+            "target_hi": 403.9788,
+            "target_lo": 384.2416
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 1250,
+            "brier_basis": "probabilistic (p=0.53 backfilled from locked note, outcome 1)",
+            "brier_p": 0.2209,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0080",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 5%",
+            "prob": 0.53,
+            "prob_conf": 5,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "XPD",
+            "target_hi": 1296.1822,
+            "target_lo": 1207.8641
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 17035,
+            "brier_basis": "probabilistic (p=0.53 backfilled from locked note, outcome 1)",
+            "brier_p": 0.2209,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0081",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 5%",
+            "prob": 0.53,
+            "prob_conf": 5,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "NI",
+            "target_hi": 17283.7216,
+            "target_lo": 16771.2655
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 39987,
+            "brier_basis": "not scored — the underlying series is not trustworthy",
+            "corrected_at": "2026-07-26T19:02:05-06:00",
+            "corrections": [
+                {
+                    "at": "2026-07-26T19:02:05-06:00",
+                    "was": "hit",
+                    "now": "unscorable",
+                    "reason": "scorer v1 unit bug (dollars vs IG points) — re-scored by unit-safe v2"
+                }
+            ],
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0082",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 5%",
+            "prob": 0.53,
+            "prob_conf": 5,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "HOIL",
+            "target_hi": 41253.0606,
+            "target_lo": 39466.3541,
+            "unscorable": "series scale break: 9791.6x on 2024-07-26 — two rulers in one series (R77). Repair the candle store, then rescore."
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 7884.2,
+            "brier_basis": "not scored — the underlying series is not trustworthy",
+            "corrected_at": "2026-07-26T19:02:05-06:00",
+            "corrections": [
+                {
+                    "at": "2026-07-26T19:02:05-06:00",
+                    "was": "hit",
+                    "now": "unscorable",
+                    "reason": "scorer v1 unit bug (dollars vs IG points) — re-scored by unit-safe v2"
+                }
+            ],
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0083",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 5%",
+            "prob": 0.53,
+            "prob_conf": 5,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "CTN",
+            "target_hi": 8074.3967,
+            "target_lo": 7826.0831,
+            "unscorable": "series scale break: 104.4x on 2025-07-04 — two rulers in one series (R77). Repair the candle store, then rescore."
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 24816.5,
+            "brier_basis": "probabilistic (p=0.53 backfilled from locked note, outcome 1)",
+            "brier_p": 0.2209,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0084",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 5%",
+            "prob": 0.53,
+            "prob_conf": 5,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "DAX",
+            "target_hi": 25101.4255,
+            "target_lo": 24543.9467
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 380.839996,
+            "brier_basis": "probabilistic (p=0.53 backfilled from locked note, outcome 1)",
+            "brier_p": 0.2209,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0085",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 5%",
+            "prob": 0.53,
+            "prob_conf": 5,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "TSLA",
+            "target_hi": 397.6735,
+            "target_lo": 364.216
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 346.769989,
+            "brier_basis": "probabilistic (p=0.53 backfilled from locked note, outcome 1)",
+            "brier_p": 0.2209,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0086",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 5%",
+            "prob": 0.53,
+            "prob_conf": 5,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "GOOGL",
+            "target_hi": 356.2348,
+            "target_lo": 337.1767
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 5% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 253.039993,
+            "brier_basis": "probabilistic (p=0.53 backfilled from locked note, outcome 1)",
+            "brier_p": 0.2209,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0087",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 5%",
+            "prob": 0.53,
+            "prob_conf": 5,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "JNJ",
+            "target_hi": 259.047,
+            "target_lo": 247.591
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 4% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 4% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 5592.7,
+            "brier_basis": "probabilistic (p=0.524 backfilled from locked note, outcome 0.5)",
+            "brier_p": 0.000576,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": "CS.D.USCSI.TODAY.IP",
+            "horizon": "2026-07-21",
+            "id": "L0088",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 4%",
+            "prob": 0.524,
+            "prob_conf": 4,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "ig-live",
+            "src": "ig",
+            "symbol": "XAG",
+            "target_hi": 5821.2,
+            "target_lo": 5383
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 4% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 4% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 4018.19,
+            "brier_basis": "probabilistic (p=0.524 backfilled from locked note, outcome 1)",
+            "brier_p": 0.226576,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": "CS.D.USCGC.TODAY.IP",
+            "horizon": "2026-07-21",
+            "id": "L0089",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 4%",
+            "prob": 0.524,
+            "prob_conf": 4,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "ig-live",
+            "src": "ig",
+            "symbol": "XAU",
+            "target_hi": 4098.6945,
+            "target_lo": 3944.257
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 4% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 4% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 32674,
+            "brier_basis": "probabilistic (p=0.524 backfilled from locked note, outcome 1)",
+            "brier_p": 0.226576,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0090",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 4%",
+            "prob": 0.524,
+            "prob_conf": 4,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "GAS",
+            "target_hi": 33732.5893,
+            "target_lo": 31734.0326
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 4% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 4% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 695.330017,
+            "brier_basis": "probabilistic (p=0.524 backfilled from locked note, outcome 1)",
+            "brier_p": 0.226576,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0091",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 4%",
+            "prob": 0.524,
+            "prob_conf": 4,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "QQQ",
+            "target_hi": 706.6992,
+            "target_lo": 683.6515
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 4% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 4% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 426.089996,
+            "brier_basis": "probabilistic (p=0.524 backfilled from locked note, outcome 1)",
+            "brier_p": 0.226576,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0092",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 4%",
+            "prob": 0.524,
+            "prob_conf": 4,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "UNH",
+            "target_hi": 437.8819,
+            "target_lo": 414.9422
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 4% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 4% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 50.32,
+            "brier_basis": "probabilistic (p=0.524 backfilled from locked note, outcome 1)",
+            "brier_p": 0.226576,
+            "created_at": "2026-07-20T13:08:12-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0093",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 4%",
+            "prob": 0.524,
+            "prob_conf": 4,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "NVO",
+            "target_hi": 51.4614,
+            "target_lo": 49.3717
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 3168,
+            "brier_basis": "probabilistic (p=0.518 backfilled from locked note, outcome 1)",
+            "brier_p": 0.232324,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0094",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 3%",
+            "prob": 0.518,
+            "prob_conf": 3,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "AL",
+            "target_hi": 3219.5802,
+            "target_lo": 3110.6361
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 2.8925,
+            "brier_basis": "probabilistic (p=0.518 backfilled from locked note, outcome 1)",
+            "brier_p": 0.232324,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0095",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 3%",
+            "prob": 0.518,
+            "prob_conf": 3,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "NG",
+            "target_hi": 2.9858,
+            "target_lo": 2.7904
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 185.761993,
+            "brier_basis": "probabilistic (p=0.518 backfilled from locked note, outcome 1)",
+            "brier_p": 0.232324,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0096",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 3%",
+            "prob": 0.518,
+            "prob_conf": 3,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "EURJPY",
+            "target_hi": 186.3771,
+            "target_lo": 185.1485
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 0.69847,
+            "brier_basis": "probabilistic (p=0.518 backfilled from locked note, outcome 1)",
+            "brier_p": 0.232324,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0097",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 3%",
+            "prob": 0.518,
+            "prob_conf": 3,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "AUDUSD",
+            "target_hi": 0.7018,
+            "target_lo": 0.6951
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 3% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 247.229996,
+            "brier_basis": "probabilistic (p=0.518 backfilled from locked note, outcome 1)",
+            "brier_p": 0.232324,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0098",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 3%",
+            "prob": 0.518,
+            "prob_conf": 3,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "AMZN",
+            "target_hi": 254.4735,
+            "target_lo": 240.4267
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 1595.4,
+            "brier_basis": "probabilistic (p=0.512 backfilled from locked note, outcome 1)",
+            "brier_p": 0.238144,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0099",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "XPT",
+            "target_hi": 1650.4607,
+            "target_lo": 1544.0827
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 6.2705,
+            "brier_basis": "probabilistic (p=0.512 backfilled from locked note, outcome 1)",
+            "brier_p": 0.238144,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0100",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "HGC",
+            "target_hi": 6.3915,
+            "target_lo": 6.1598
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 202.809998,
+            "brier_basis": "probabilistic (p=0.512 backfilled from locked note, outcome 1)",
+            "brier_p": 0.238144,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0101",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "NVDA",
+            "target_hi": 209.611,
+            "target_lo": 196.0517
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 368.410004,
+            "brier_basis": "probabilistic (p=0.512 backfilled from locked note, outcome 1)",
+            "brier_p": 0.238144,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0102",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "GLD",
+            "target_hi": 373.2928,
+            "target_lo": 363.2637
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 2% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 1179.109985,
+            "brier_basis": "probabilistic (p=0.512 backfilled from locked note, outcome 1)",
+            "brier_p": 0.238144,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0103",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 2%",
+            "prob": 0.512,
+            "prob_conf": 2,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "LLY",
+            "target_hi": 1214.0795,
+            "target_lo": 1145.7499
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 1501.8,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0104",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "SUG",
+            "target_hi": 1538.192,
+            "target_lo": 1467.4983
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 1205,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0105",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "SOY",
+            "target_hi": 1222.8093,
+            "target_lo": 1188.761
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 10574.2,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0106",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "FTSE",
+            "target_hi": 10683.4225,
+            "target_lo": 10467.3505
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 1.4018,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 0.5)",
+            "brier_p": 3.6e-5,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0107",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "USDCAD",
+            "target_hi": 1.4064,
+            "target_lo": 1.3967
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 743.289978,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0108",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "SPY",
+            "target_hi": 749.9475,
+            "target_lo": 736.7979
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 1% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 294.040009,
+            "brier_basis": "probabilistic (p=0.506 backfilled from locked note, outcome 1)",
+            "brier_p": 0.244036,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0109",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 1%",
+            "prob": 0.506,
+            "prob_conf": 1,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "IWM",
+            "target_hi": 297.9667,
+            "target_lo": 290.2858
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 64142.5,
+            "brier_basis": "probabilistic (p=0.5 backfilled from locked note, outcome 1)",
+            "brier_p": 0.25,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0110",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 0%",
+            "prob": 0.5,
+            "prob_conf": 0,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "BTC",
+            "target_hi": 65963.7474,
+            "target_lo": 62465.5655
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 453,
+            "brier_basis": "probabilistic (p=0.5 backfilled from locked note, outcome 1)",
+            "brier_p": 0.25,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0111",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 0%",
+            "prob": 0.5,
+            "prob_conf": 0,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "CRN",
+            "target_hi": 462.3061,
+            "target_lo": 444.6352
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 7455.35,
+            "brier_basis": "probabilistic (p=0.5 backfilled from locked note, outcome 1)",
+            "brier_p": 0.25,
+            "created_at": "2026-07-20T13:08:13-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0112",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 0%",
+            "prob": 0.5,
+            "prob_conf": 0,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "SPX",
+            "target_hi": 7520.7549,
+            "target_lo": 7395.6764
+        },
+        {
+            "annotations": [
+                {
+                    "at": "2026-07-26T04:46:45-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (conviction/100). The forecast itself was not altered."
+                },
+                {
+                    "at": "2026-07-26T11:45:35-06:00",
+                    "what": "probability stamped",
+                    "reason": "conviction 0% read from this call's own locked note and mapped by p = 0.50 + 0.45 * (min(conviction,75) / 75). The forecast itself was not altered."
+                }
+            ],
+            "basis": 52149.4,
+            "brier_basis": "probabilistic (p=0.5 backfilled from locked note, outcome 1)",
+            "brier_p": 0.25,
+            "created_at": "2026-07-20T13:08:14-06:00",
+            "epic": null,
+            "horizon": "2026-07-21",
+            "id": "L0113",
+            "kind": "price_target",
+            "note": "AUTO · US-CLOSE · official verdict 2026-07-20 · NEUTRAL — no edge · conf 0%",
+            "prob": 0.5,
+            "prob_conf": 0,
+            "prob_map": "p = 0.50 + 0.45 * (min(conviction,75) / 75)",
+            "prob_src": "conviction",
+            "scored_via": "candle-store daily close",
+            "src": "store",
+            "symbol": "DOW",
+            "target_hi": 52585.3361,
+            "target_lo": 51723.6274
+        }
+    ]
+}
