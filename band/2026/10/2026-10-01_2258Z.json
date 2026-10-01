@@ -1,0 +1,1836 @@
+{
+    "what": "ForgeEdge Band - its own machine, separate from the Director. Each band says where the close lands, the given number of sessions after the close it starts from, 80% of the time. Published exactly as locked, before any result.",
+    "published_utc": "2026-10-01T22:58:01+00:00",
+    "count": 203,
+    "sha256_of_bands": "32023592d18f2e2f0cb30a70f40a857275a6e64484f88e25467396052b9ba3a3",
+    "how_to_check": "sha256 of the \"bands\" array serialised as compact JSON (no escaped slashes or unicode) equals sha256_of_bands",
+    "bands": [
+        {
+            "market": "XAG",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 61.245,
+            "low": 59.494,
+            "high": 63.047,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "XAG",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 61.245,
+            "low": 56.915,
+            "high": 65.905,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "XAG",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 61.245,
+            "low": 54.752,
+            "high": 68.508,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "XAG",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 61.245,
+            "low": 51.369,
+            "high": 73.019,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "XAG",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 61.245,
+            "low": 44.914,
+            "high": 83.514,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "XAG",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 61.245,
+            "low": 35.949,
+            "high": 104.342,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "XAG",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 61.245,
+            "low": 33.835,
+            "high": 110.859,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "XPT",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 1730.5,
+            "low": 1681.86,
+            "high": 1780.54,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "XPT",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 1730.5,
+            "low": 1617.22,
+            "high": 1851.71,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "XPT",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 1730.5,
+            "low": 1591.06,
+            "high": 1882.16,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "XPT",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 1730.5,
+            "low": 1512.47,
+            "high": 1979.96,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "XPT",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 1730.5,
+            "low": 1413.49,
+            "high": 2118.61,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "XPT",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 1730.5,
+            "low": 1254.55,
+            "high": 2387.02,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "XPT",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 1730.5,
+            "low": 1234.94,
+            "high": 2424.93,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "WTI",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 93.07,
+            "low": 90.139,
+            "high": 96.096,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "WTI",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 93.07,
+            "low": 86.16,
+            "high": 100.534,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "WTI",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 93.07,
+            "low": 83.286,
+            "high": 104.004,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "WTI",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 93.07,
+            "low": 77.935,
+            "high": 111.144,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "WTI",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 93.07,
+            "low": 71.672,
+            "high": 120.856,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "WTI",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 93.07,
+            "low": 54.161,
+            "high": 159.931,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "WTI",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 93.07,
+            "low": 54.476,
+            "high": 159.006,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "BTC",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 84739.68,
+            "low": 82814.27,
+            "high": 86709.86,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "BTC",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 84739.68,
+            "low": 80398.52,
+            "high": 89315.25,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "BTC",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 84739.68,
+            "low": 77891.35,
+            "high": 92190.13,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "BTC",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 84739.68,
+            "low": 67580.13,
+            "high": 106256.28,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "BTC",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 84739.68,
+            "low": 63402.72,
+            "high": 113257.18,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "BTC",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 84739.68,
+            "low": 63285.57,
+            "high": 113466.83,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "BTC",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 91,
+            "base": 84739.68,
+            "low": 63278.07,
+            "high": 113480.28,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SUG",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 1896,
+            "low": 1826.52,
+            "high": 1968.13,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SUG",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 1896,
+            "low": 1743.19,
+            "high": 2062.21,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SUG",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 1896,
+            "low": 1651.48,
+            "high": 2176.72,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SUG",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 1896,
+            "low": 1570.06,
+            "high": 2289.6,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SUG",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 1896,
+            "low": 1412.92,
+            "high": 2544.24,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SUG",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 1896,
+            "low": 1418.6,
+            "high": 2534.05,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SUG",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 1896,
+            "low": 1422.74,
+            "high": 2526.68,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "COC",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 5448,
+            "low": 5263.81,
+            "high": 5638.63,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "COC",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 5448,
+            "low": 4902.16,
+            "high": 6054.61,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "COC",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 5448,
+            "low": 4633.34,
+            "high": 6405.89,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "COC",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 5448,
+            "low": 4328.15,
+            "high": 6857.59,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "COC",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 5448,
+            "low": 3958.14,
+            "high": 7498.65,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "COC",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 5448,
+            "low": 3480.68,
+            "high": 8527.27,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "COC",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 5448,
+            "low": 3285.92,
+            "high": 9032.68,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "BRN",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 10258,
+            "low": 9915.25,
+            "high": 10612.6,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "BRN",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 10258,
+            "low": 9524.88,
+            "high": 11047.55,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "BRN",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 10258,
+            "low": 9218.34,
+            "high": 11414.92,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "BRN",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 10258,
+            "low": 8666.47,
+            "high": 12141.8,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "BRN",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 10258,
+            "low": 7906.46,
+            "high": 13308.93,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "BRN",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 10258,
+            "low": 6248.46,
+            "high": 16840.39,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "BRN",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 10258,
+            "low": 6371.2,
+            "high": 16515.96,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GAS",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 34127,
+            "low": 32606.41,
+            "high": 35718.5,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GAS",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 34127,
+            "low": 30851.56,
+            "high": 37750.18,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GAS",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 34127,
+            "low": 29177.56,
+            "high": 39916.02,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GAS",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 34127,
+            "low": 26684.69,
+            "high": 43644.95,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GAS",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 34127,
+            "low": 20648.81,
+            "high": 56402.88,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GAS",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 34127,
+            "low": 14493.53,
+            "high": 80356.69,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GAS",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 34127,
+            "low": 14085.3,
+            "high": 82685.63,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "HOIL",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 46529,
+            "low": 44761.21,
+            "high": 48366.61,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "HOIL",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 46529,
+            "low": 42162.38,
+            "high": 51347.87,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "HOIL",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 46529,
+            "low": 40219.82,
+            "high": 53827.89,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "HOIL",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 46529,
+            "low": 37387.94,
+            "high": 57904.99,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "HOIL",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 46529,
+            "low": 34219.18,
+            "high": 63267.09,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "HOIL",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 46529,
+            "low": 30931.85,
+            "high": 69990.91,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "HOIL",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 46529,
+            "low": 30414.91,
+            "high": 71180.48,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "FTSE",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 10428.27,
+            "low": 10334.71,
+            "high": 10522.68,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "FTSE",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 10428.27,
+            "low": 10232.37,
+            "high": 10627.92,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "FTSE",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 10428.27,
+            "low": 10115.08,
+            "high": 10751.16,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "FTSE",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 10428.27,
+            "low": 10047.53,
+            "high": 10823.44,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "FTSE",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 10428.27,
+            "low": 9858.12,
+            "high": 11031.4,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "FTSE",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 10428.27,
+            "low": 9623.88,
+            "high": 11299.9,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "FTSE",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 10428.27,
+            "low": 9564.99,
+            "high": 11369.47,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "DAX",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 24939.35,
+            "low": 24710.98,
+            "high": 25169.83,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "DAX",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 24939.35,
+            "low": 24478.6,
+            "high": 25408.77,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "DAX",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 24939.35,
+            "low": 24267.97,
+            "high": 25629.3,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "DAX",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 24939.35,
+            "low": 24076.09,
+            "high": 25833.56,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "DAX",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 24939.35,
+            "low": 23870.35,
+            "high": 26056.22,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "DAX",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 24939.35,
+            "low": 23907.68,
+            "high": 26015.54,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "DAX",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 24939.35,
+            "low": 23914.6,
+            "high": 26008.01,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "NIK",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 68956.72,
+            "low": 67521.84,
+            "high": 70422.09,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "NIK",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 68956.72,
+            "low": 66142.41,
+            "high": 71890.77,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "NIK",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 68956.72,
+            "low": 64816.96,
+            "high": 73360.88,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "NIK",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 68956.72,
+            "low": 63007.99,
+            "high": 75467.08,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "NIK",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 68956.72,
+            "low": 59668.39,
+            "high": 79690.92,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "NIK",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 68956.72,
+            "low": 56392.14,
+            "high": 84320.77,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "NIK",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 68956.72,
+            "low": 55685.8,
+            "high": 85390.33,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "EURGBP",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 0.85208,
+            "low": 0.85049,
+            "high": 0.85367,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "EURGBP",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 0.85208,
+            "low": 0.84859,
+            "high": 0.85558,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "EURGBP",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 0.85208,
+            "low": 0.84743,
+            "high": 0.85675,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "EURGBP",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 0.85208,
+            "low": 0.8461,
+            "high": 0.8581,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "EURGBP",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 0.85208,
+            "low": 0.84454,
+            "high": 0.85969,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "EURGBP",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 0.85208,
+            "low": 0.84323,
+            "high": 0.86102,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "EURGBP",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 91,
+            "base": 0.85208,
+            "low": 0.84231,
+            "high": 0.86196,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GBPJPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 208.539,
+            "low": 207.426,
+            "high": 209.658,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GBPJPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 208.539,
+            "low": 205.998,
+            "high": 211.111,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GBPJPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 208.539,
+            "low": 204.934,
+            "high": 212.208,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GBPJPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 208.539,
+            "low": 203.326,
+            "high": 213.886,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GBPJPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 208.539,
+            "low": 201.924,
+            "high": 215.37,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GBPJPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 208.539,
+            "low": 200.026,
+            "high": 217.414,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GBPJPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 208.539,
+            "low": 199.738,
+            "high": 217.728,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "EURJPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 177.706,
+            "low": 176.781,
+            "high": 178.636,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "EURJPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 177.706,
+            "low": 175.634,
+            "high": 179.802,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "EURJPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 177.706,
+            "low": 174.858,
+            "high": 180.601,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "EURJPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 177.706,
+            "low": 173.511,
+            "high": 182.002,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "EURJPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 177.706,
+            "low": 171.047,
+            "high": 184.624,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "EURJPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 177.706,
+            "low": 169.829,
+            "high": 185.949,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "EURJPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 177.706,
+            "low": 168.878,
+            "high": 186.996,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "AUDUSD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 0.69305,
+            "low": 0.68948,
+            "high": 0.69663,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "AUDUSD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 0.69305,
+            "low": 0.68447,
+            "high": 0.70174,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "AUDUSD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 0.69305,
+            "low": 0.68201,
+            "high": 0.70427,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "AUDUSD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 0.69305,
+            "low": 0.67608,
+            "high": 0.71044,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "AUDUSD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 0.69305,
+            "low": 0.66951,
+            "high": 0.71742,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "AUDUSD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 0.69305,
+            "low": 0.66065,
+            "high": 0.72704,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "AUDUSD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 0.69305,
+            "low": 0.6546,
+            "high": 0.73376,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "USDCAD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 1.4224,
+            "low": 1.4187,
+            "high": 1.4261,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "USDCAD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 1.4224,
+            "low": 1.4122,
+            "high": 1.4326,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "USDCAD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 1.4224,
+            "low": 1.4055,
+            "high": 1.4395,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "USDCAD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 1.4224,
+            "low": 1.3969,
+            "high": 1.4484,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "USDCAD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 1.4224,
+            "low": 1.3909,
+            "high": 1.4546,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "USDCAD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 1.4224,
+            "low": 1.3865,
+            "high": 1.4592,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "USDCAD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 91,
+            "base": 1.4224,
+            "low": 1.3851,
+            "high": 1.4607,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "NZDUSD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 0.56041,
+            "low": 0.55736,
+            "high": 0.56348,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "NZDUSD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 0.56041,
+            "low": 0.55309,
+            "high": 0.56783,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "NZDUSD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 0.56041,
+            "low": 0.55045,
+            "high": 0.57055,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "NZDUSD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 0.56041,
+            "low": 0.54534,
+            "high": 0.5759,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "NZDUSD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 0.56041,
+            "low": 0.54268,
+            "high": 0.57873,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "NZDUSD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 0.56041,
+            "low": 0.54532,
+            "high": 0.57593,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "NZDUSD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 0.56041,
+            "low": 0.54346,
+            "high": 0.5779,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SLV",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 55.02,
+            "low": 53.343,
+            "high": 56.75,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SLV",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 55.02,
+            "low": 50.876,
+            "high": 59.502,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SLV",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 55.02,
+            "low": 48.724,
+            "high": 62.13,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SLV",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 55.02,
+            "low": 45.701,
+            "high": 66.239,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SLV",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 55.02,
+            "low": 40.082,
+            "high": 75.525,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SLV",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 55.02,
+            "low": 32.477,
+            "high": 93.209,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SLV",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 55.02,
+            "low": 31.437,
+            "high": 96.294,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GLD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 382.76,
+            "low": 375.834,
+            "high": 389.813,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GLD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 382.76,
+            "low": 366.114,
+            "high": 400.163,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GLD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 382.76,
+            "low": 359.548,
+            "high": 407.471,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GLD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 382.76,
+            "low": 346.669,
+            "high": 422.608,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GLD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 382.76,
+            "low": 322.047,
+            "high": 454.918,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GLD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 382.76,
+            "low": 300.031,
+            "high": 488.301,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "GLD",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 382.76,
+            "low": 296.45,
+            "high": 494.199,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 763.99,
+            "low": 758.057,
+            "high": 769.969,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 763.99,
+            "low": 750.816,
+            "high": 777.395,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 763.99,
+            "low": 747.214,
+            "high": 781.143,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 763.99,
+            "low": 741.207,
+            "high": 787.473,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 763.99,
+            "low": 733.367,
+            "high": 795.891,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 763.99,
+            "low": 721.567,
+            "high": 808.907,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "SPY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 763.99,
+            "low": 720.264,
+            "high": 810.37,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "QQQ",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 742.03,
+            "low": 732.478,
+            "high": 751.707,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "QQQ",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 742.03,
+            "low": 719.951,
+            "high": 764.786,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "QQQ",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 742.03,
+            "low": 714.378,
+            "high": 770.753,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "QQQ",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 742.03,
+            "low": 704.241,
+            "high": 781.847,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "QQQ",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 742.03,
+            "low": 682.843,
+            "high": 806.348,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "QQQ",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 742.03,
+            "low": 667.65,
+            "high": 824.697,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "QQQ",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 742.03,
+            "low": 658.144,
+            "high": 836.607,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "IWM",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 279.02,
+            "low": 276.241,
+            "high": 281.827,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "IWM",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 279.02,
+            "low": 273.831,
+            "high": 284.307,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "IWM",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 279.02,
+            "low": 271.768,
+            "high": 286.466,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "IWM",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 279.02,
+            "low": 268.491,
+            "high": 289.962,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "IWM",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 279.02,
+            "low": 265.31,
+            "high": 293.438,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "IWM",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 279.02,
+            "low": 262.257,
+            "high": 296.854,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "IWM",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 279.02,
+            "low": 261.634,
+            "high": 297.561,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "VXX",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 17.79,
+            "low": 17.372,
+            "high": 18.218,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "VXX",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 17.79,
+            "low": 17.031,
+            "high": 18.583,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "VXX",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 17.79,
+            "low": 16.708,
+            "high": 18.943,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "VXX",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 17.79,
+            "low": 16.253,
+            "high": 19.472,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "VXX",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 17.79,
+            "low": 15.493,
+            "high": 20.427,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "VXX",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 17.79,
+            "low": 14.858,
+            "high": 21.301,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "VXX",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 17.79,
+            "low": 14.723,
+            "high": 21.497,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US3M",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 3.982,
+            "low": 3.9472,
+            "high": 4.0171,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US3M",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 3.982,
+            "low": 3.8952,
+            "high": 4.0707,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US3M",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 3.982,
+            "low": 3.862,
+            "high": 4.1058,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US3M",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 3.982,
+            "low": 3.7945,
+            "high": 4.1787,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US3M",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 3.982,
+            "low": 3.6268,
+            "high": 4.372,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US3M",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 3.982,
+            "low": 3.4438,
+            "high": 4.6042,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US3M",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 3.982,
+            "low": 3.3928,
+            "high": 4.6735,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US5Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 5.005,
+            "low": 4.9315,
+            "high": 5.0796,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US5Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 5.005,
+            "low": 4.8462,
+            "high": 5.169,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US5Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 5.005,
+            "low": 4.7726,
+            "high": 5.2487,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US5Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 5.005,
+            "low": 4.7045,
+            "high": 5.3246,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US5Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 5.005,
+            "low": 4.6598,
+            "high": 5.3758,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US5Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 5.005,
+            "low": 4.5539,
+            "high": 5.5008,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US5Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 5.005,
+            "low": 4.5208,
+            "high": 5.541,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US10Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 5.237,
+            "low": 5.1707,
+            "high": 5.3042,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US10Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 5.237,
+            "low": 5.085,
+            "high": 5.3936,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US10Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 5.237,
+            "low": 5.0201,
+            "high": 5.4633,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US10Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 5.237,
+            "low": 4.9701,
+            "high": 5.5182,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US10Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 5.237,
+            "low": 4.9252,
+            "high": 5.5686,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US10Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 5.237,
+            "low": 4.8422,
+            "high": 5.664,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US10Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 5.237,
+            "low": 4.8036,
+            "high": 5.7095,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US30Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 5.603,
+            "low": 5.5486,
+            "high": 5.658,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US30Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 5.603,
+            "low": 5.4793,
+            "high": 5.7295,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US30Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 5.603,
+            "low": 5.43,
+            "high": 5.7815,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US30Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 5.603,
+            "low": 5.3863,
+            "high": 5.8284,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US30Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 5.603,
+            "low": 5.2965,
+            "high": 5.9272,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US30Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 5.603,
+            "low": 5.284,
+            "high": 5.9413,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "US30Y",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 5.603,
+            "low": 5.2537,
+            "high": 5.9756,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "DXY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 1,
+            "base": 102.043,
+            "low": 101.684,
+            "high": 102.403,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "DXY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 5,
+            "base": 102.043,
+            "low": 101.079,
+            "high": 103.016,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "DXY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 10,
+            "base": 102.043,
+            "low": 100.774,
+            "high": 103.328,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "DXY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 20,
+            "base": 102.043,
+            "low": 100.37,
+            "high": 103.744,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "DXY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 40,
+            "base": 102.043,
+            "low": 100.055,
+            "high": 104.07,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "DXY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 60,
+            "base": 102.043,
+            "low": 100.274,
+            "high": 103.843,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        },
+        {
+            "market": "DXY",
+            "from_close": "2026-10-01",
+            "sessions_ahead": 65,
+            "base": 102.043,
+            "low": 100.133,
+            "high": 103.989,
+            "locked_utc": "2026-10-01T22:49:03+00:00"
+        }
+    ]
+}
